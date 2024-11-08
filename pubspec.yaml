@@ -1,6 +1,6 @@
 name: dktech_ads
 description: "This is admob ad library on flutter This is admob ad library on flutter"
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/TienNguyen267/dktech_ads.git
 environment:
   sdk: ^3.5.3
