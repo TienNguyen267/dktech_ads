@@ -42,7 +42,8 @@ class _Screen2State extends State<Screen2> {
                 },
               ),
             ),
-            AdsManager.showNativeMediumWithLayout(context,AdsManager.nativeHolder)
+            AdsManager.showNativeMediumWithLayout(
+                context, AdsManager.nativeHolder)
           ],
         ),
       ),

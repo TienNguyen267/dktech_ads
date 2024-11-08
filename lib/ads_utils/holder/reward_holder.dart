@@ -9,6 +9,5 @@ class RewardHolder {
   bool check = true;
   ValueNotifier<InterstitialAd?> adsRewardController = ValueNotifier(null);
 
-  RewardHolder({required this.idAndroid,required this.idIOS});
-
+  RewardHolder({required this.idAndroid, required this.idIOS});
 }

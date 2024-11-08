@@ -9,5 +9,5 @@ class NativeHolder {
   bool isLoad = true;
   ValueNotifier<Pair> adsNativeController = ValueNotifier(Pair(null, ""));
 
-  NativeHolder({required this.idAndroid,required this.idIOS});
+  NativeHolder({required this.idAndroid, required this.idIOS});
 }

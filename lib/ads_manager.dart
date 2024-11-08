@@ -10,7 +10,8 @@ import 'ads_utils/type/banner_collapsible_type.dart';
 import 'ads_utils/type/native_type.dart';
 
 class AdsManager {
-  static BannerHolder bannerCollapsibleHolder = BannerHolder(idAndroid: "", idIOS: "");
+  static BannerHolder bannerCollapsibleHolder =
+      BannerHolder(idAndroid: "", idIOS: "");
   static BannerHolder bannerHolder = BannerHolder(idAndroid: "", idIOS: "");
   static NativeHolder nativeHolder = NativeHolder(idAndroid: "", idIOS: "");
   static InterHolder interHolder = InterHolder(idAndroid: "", idIOS: "");
@@ -36,8 +37,7 @@ class AdsManager {
       {required Function() onEarned,
       required Function() onAdClosed,
       required Function() onAdFail}) {
-
-    if(isTestDevice) {
+    if (isTestDevice) {
       onAdClosed();
       Fluttertoast.showToast(
           msg: "Is Test Device",
@@ -98,7 +98,7 @@ class AdsManager {
     AdmobUtils.loadNativeWithLayout(
         context, nativeHolder, NativeAdmobType.NATIVE_SMALL,
         onAdLoaded: (headline) {
-        checkAdsTest(headline);
+      checkAdsTest(headline);
     });
   }
 
