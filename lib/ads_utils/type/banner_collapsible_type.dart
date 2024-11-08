@@ -1,0 +1,1 @@
+enum BannerCollapsibleType { COLLAPSIBLE_BOTTOM, COLLAPSIBLE_TOP }
