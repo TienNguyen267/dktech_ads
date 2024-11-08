@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
-import '../placeholders..dart';
+import '../placeholders.dart';
 
 class BannerShimmer extends StatelessWidget {
   const BannerShimmer({super.key});
